@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <title>My Portfolio Website</title>
+</head>
+<body>
+   <!-- <header> -->
+        <!-- Side Nav Bar -->
+        <nav>
+            <center>
+                <img src="./selfie.png" alt="">
+                <br><br>
+                <div class="icons">
+                    <a class="logo" href="https://www.linkedin.com/in/christin-henderson-351356237/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a class="logo" href="https://github.com/ChrisHende18" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    <a class="logo" href="https://www.instagram.com/_chriscraige_" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                
+                </div>
+            </center>
+            <br><br>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> 
+
+         <!-- ==== HOME SECTION ====  -->
+
+        <section id="home">
+            <div class="heading">
+                <h1 class="title">Hi,</h1>
+                <h2 class="title">I'm Christin</h2>
+                <div class="typewriter">
+                    <h4>Full-Stack Engineer</h4>
+                </div>
+                
+            </div>
+        </section> 
+
+        <!-- ==== ABOUT SECTION ==== -->
+
+        <section id="about">
+            <div class="about-container">
+             <div class="aboutSec">
+               <h2 class="title">About Me</h2>
+               <br>
+                <p>I am currently in the medical field, as a Clinical Lab Specialist, now working towards changing my career to tech. I have a Bachelor's Degree in Biology with a concentration in Marine. While in school I took several computer science classes in the hopes of minoring in computer science. I always had a love for computers and enjoy learning new skills.</p> 
+
+                   
+            </div>
+            <!-- Resume Button -->
+
+                <a href="https://docs.google.com/document/d/1YLWxllXOnrhZf9eX1uD94fFfrJ8iSZnqFlUh6_zEcnc/edit?usp=sharing" target="_blank" class="myButton">Download Resume</a>   
+            </div>   
+        </section> 
+
+        <!-- ==== EXPERIENCE SECTION ==== -->
+
+        <section id="work">
+
+            <!-- === PROJECTS === -->
+
+            <div class="project-container">
+                <h2 class="titles">Projects</h2>
+                <div class="row">
+                    <div class="project-filter">
+                        <div class="project-filter-inner">
+                            <button type="button" class="active" data-filter="all">Everything</button>
+                            <button type="button" data-filter="codecademy">Codecademy</button>
+                            <button type="button" data-filter="personal">Personal</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- == PRJOCET ITEM == -->
+                    <div class="project-item" data-category="codecademy">
+                        <div class="project-item-inner">
+                            <div class="project-item-thumbnail">
+                                <img src="./randomJoke.jpg">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Codecademy</span>
+                            <h3 class="project-item-title">Random Joke Generator</h3>
+                            <a href="https://github.com/ChrisHende18/RandomJoke.github.io" target="_blank"><span class="more-button">&hellip;</span></a> <!-- THREE DOTS "..." -->
+                        </div>
+                    </div>
+                      <!-- == PRJOCET ITEM == -->
+                     <div class="project-item" data-category="codecademy">
+                        <div class="project-item-inner">
+                            <div class="project-item-thumbnail">
+                                <img src="./coffeeHouse.jpg">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Codecademy</span>
+                            <h3 class="project-item-title">Coffee House Homepage</h3>
+                            <a href="https://github.com/ChrisHende18/coffehouse.github.io" target="_blank"><span class="more-button">&hellip;</span></a> 
+                    </div>
+                     <!-- == PRJOCET ITEM == -->
+                     <div class="project-item" data-category="codecademy">
+                        <div class="project-item-inner">
+                            <div class="project-item-thumbnail">
+                                <img src="./clubWebsite.jpg">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Codecademy</span>
+                            <h3 class="project-item-title">Club Website</h3>
+                            <a href="https://github.com/ChrisHende18/TheBlerdClub.github.io" target="_blank"><span class="more-button">&hellip;</span></a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- === SKILLS === -->
+            <div class="skill">
+                <h2 class="titles">Skills</h2>
+ 
+                <li><h3>HTML</h3>
+                     <span class="bar">
+                         <span class="html"></span>
+                     </span>
+                 </li>
+                 <li><h3>CSS</h3>
+                     <span class="bar">
+                         <span class="css"></span>
+                     </span>
+                 </li>
+                 <li><h3>PYTHON</h3>
+                     <span class="bar">
+                         <span class="py"></span>
+                     </span>
+                 </li>
+                 <li><h3>JAVASCRIPT</h3>
+                     <span class="bar">
+                         <span class="js"></span>
+                     </span>
+                 </li>
+            </div>
+        
+        </section>
+
+
+        <!-- ==== CONTACT SECTION ==== -->
+
+        <section id="contact">
+            <form action="">
+                <div class="title">
+                    <h2>Contact Me</h2>
+                </div>
+                <div class="half">
+                    <div class="item">
+                        <label for="name">NAME</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="item">
+                        <label for="email">EMAIL</label>
+                        <input type="text" id="email">
+                    </div>
+                </div>
+                <div class="full">
+                    <label for="message">MESSAGE</label>
+                    <textarea name="" id="message"></textarea>
+                </div>
+                <div class="action">
+                    <input type="submit" value="SEND MESSAGE">
+                    <input type="reset" value="RESET">
+                </div>
+        </section> 
+    </main>
+
+    <!-- ==== LOGOS ==== -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+
+    <!-- ==== JAVASCRIPT ==== -->
+
+    <script src="./script.js"></script> 
+
+</body> 
+</html>
