@@ -14,6 +14,6 @@ The goal is to build a webiste using CSS, HTML, & Javascript.
 
 ## How To Use
 
-Click this link: [https://chrishende18.github.io/RandomJoke.github.io/](https://chrishende18.github.io/RandomJoke.github.io/)
+Click this link:
 
 ## Created by Christin Henderson April 2022
