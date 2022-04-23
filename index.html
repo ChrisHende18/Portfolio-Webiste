@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Protfolio Website</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- MENU BUTTON FOR RESPONSIVE-->
+        <div class="menu-toggle">
+			<div class="hamburger">
+				<span></span>
+			</div>
+		</div>
+
+        <nav class="sidenav">
+            <center>
+                <img src="./selfie.png" alt="">
+                <br><br>
+                <div class="icons">
+                    <a class="logo" href="https://www.linkedin.com/in/christin-henderson-351356237/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a class="logo" href="https://github.com/ChrisHende18" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    <a class="logo" href="https://www.instagram.com/_chriscraige_" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                
+                </div>
+            </center>
+            <br><br>
+            <ul>
+                <li><a href="#home" class="menu-item is-active">Home</a></li>
+                <li><a href="#about" class="menu-item">About</a></li>
+                <li><a href="#portfolio" class="menu-item">Protfolio</a></li>
+                <li><a href="#skills" class="menu-item">Skills</a></li>
+                <li><a href="#contact" class="menu-item">Contact</a></li>
+            </ul>
+        </nav> 
+    </div>
+    
+
+    <div class="content">
+
+        <section id="home">
+            <div class="heading">
+                <h1 class="title">Hi,</h1>
+                <p class="title">I'm <span class="special">Christin</span></p>
+                <div class="typewriter">
+                    <h4>Full-Stack Engineer</h4>
+                </div>
+                
+            </div>
+        </section> 
+
+        <section id="about">
+            <div class="about-container">
+                <div class="aboutSec">
+                <h2 class="title">About Me</h2>
+                <br>
+                    <p>I am currently in the medical field, as a Clinical Lab Specialist, now working towards changing my career to tech. I have a Bachelor's Degree in Biology with a concentration in Marine. While in school I took several computer science classes in the hopes of minoring in computer science. I always had a love for computers and enjoy learning new skills.</p> 
+
+                   
+                </div>
+            <!-- Resume Button -->
+
+                <a href="https://docs.google.com/document/d/1YLWxllXOnrhZf9eX1uD94fFfrJ8iSZnqFlUh6_zEcnc/edit?usp=sharing" target="_blank" class="myButton">Download Resume</a>   
+            </div>   
+        </section> 
+        <!-- === PROJECTS === -->
+        
+        <section id="portfolio">
+            <h2 class="titles">Portfolio</h2>
+            <div class="project-container">
+                <div class="item-card">
+                    <img src="./coffeeHouse.jpg" alt="Coffee House Homepage">
+                    <h3>Coffee House Homepage</h3>
+                    <p class="subtext">Info about the project and link to code. Very fun to make.</p>
+                    <hr/>
+                    <p class="sub-text"><a href="https://github.com/ChrisHende18/coffehouse.github.io" target="_blank"> View Here</a></p>
+                </div>
+                <div class="item-card">
+                    <img src="./randomJoke.jpg" alt="Random Joke Generator">
+                    <h3>Random Joke Generator</h3>
+                    <p class="subtext">Info about the project and link to code. Very fun to make.</p>
+                    <hr/>
+                    <p class="sub-text"><a href="https://github.com/ChrisHende18/RandomJoke.github.io" target="_blank"> View Here</a></p>
+                </div>
+                <div class="item-card">
+                    <img src="./clubWebsite.jpg" alt="Club Website">
+                    <h3>Blerd Club Website</h3>
+                    <p class="subtext">Info about the project and link to code. Very fun to make.</p>
+                    <hr/>
+                    <p class="sub-text"><a href="https://github.com/ChrisHende18/TheBlerdClub.github.io" target="_blank"> View Here</a></p>
+                </div>
+                <div class="item-card">
+                    <img src="./webstyleguide.jpg" alt="Website Style Guide">
+                    <h3>Website Style Guide/h3>
+                    <p class="subtext">Info about the project and link to code. Very fun to make.</p>
+                    <hr/>
+                    <p class="sub-text"><a href="https://github.com/ChrisHende18/WebStyleGuide.github.io" target="_blank"> View Here</a></p>
+                </div>
+            </div>
+          
+        </section>
+
+        <!-- === SKILLS === -->
+
+        <section id="skills">
+           
+            <div class="skill">
+                <h2 class="titles">Skills</h2>
+ 
+                <li><h3>HTML</h3>
+                     <span class="bar">
+                         <span class="html"></span>
+                     </span>
+                 </li>
+                 <li><h3>CSS</h3>
+                     <span class="bar">
+                         <span class="css"></span>
+                     </span>
+                 </li>
+                 <li><h3>PYTHON</h3>
+                     <span class="bar">
+                         <span class="py"></span>
+                     </span>
+                 </li>
+                 <li><h3>JAVASCRIPT</h3>
+                     <span class="bar">
+                         <span class="js"></span>
+                     </span>
+                 </li>
+            </div>
+        
+        </section>
+
+        <!-- ==== CONTACT SECTION ==== -->
+
+        <section id="contact">
+            <form action="">
+                <div class="title">
+                    <h2>Contact Me</h2>
+                </div>
+                <div class="half">
+                    <div class="item">
+                        <label for="name">NAME</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="item">
+                        <label for="email">EMAIL</label>
+                        <input type="text" id="email">
+                    </div>
+                </div>
+                <div class="full">
+                    <label for="message">MESSAGE</label>
+                    <textarea name="" id="message"></textarea>
+                </div>
+                <div class="action">
+                    <input type="submit" value="SEND MESSAGE">
+                    <input type="reset" value="RESET">
+                </div>
+        </section> 
+
+    </div>
+
+    <!-- ==== LOGOS ==== -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+
+    <!--==== JAVASCRIPT ====-->
+
+    <script>
+		const menu_toggle = document.querySelector('.menu-toggle');
+		const sidebar = document.querySelector('.sidenav');
+
+		menu_toggle.addEventListener('click', () => {
+			menu_toggle.classList.toggle('is-active');
+			sidebar.classList.toggle('is-active');
+		});
+	</script>
+
+</body>
+</html>
