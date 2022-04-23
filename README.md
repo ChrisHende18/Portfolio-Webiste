@@ -14,6 +14,6 @@ The goal is to build a webiste using CSS, HTML, & Javascript.
 
 ## How To Use
 
-Click this link:
+Click this link: chrishende18-portfolio-webiste.pages.dev
 
 ## Created by Christin Henderson April 2022
